@@ -489,7 +489,7 @@ color: red;
 
   
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 475px) {
   .DOOM1 {
     padding-left: 15px;
     margin-right: 15px;
