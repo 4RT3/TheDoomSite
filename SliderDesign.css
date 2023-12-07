@@ -1,0 +1,133 @@
+*{margin: 0; padding: 0;}
+/*KeyFrames*/
+@keyframes Heartbeat2 {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+@keyframes Vibrations {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "Eternal Logo";
+    src: url("./Fonts/EternalLogo-lg2dd.ttf");
+}
+/*Основы*/
+body{
+background-color: black;
+}
+header{
+background-color: black;
+}
+footer{
+background-color: black;
+}
+/*Картинки*/
+.ImageDOOM1{
+width: 400px;
+height: 300px;
+}
+
+.ImageDOOM1:hover{animation: Vibrations 0.1s ease 1s infinite reverse forwards;}
+
+.ImageDOOM2{
+width: 400px;
+height: 300px;
+}
+.ImageDOOM2:hover{animation: Vibrations 0.1s ease 1s infinite reverse forwards;}
+
+.ImageDOOM3{
+width: 400px;
+height: 300px;
+}
+
+.ImageDOOM3:hover{animation: Vibrations 0.1s ease 1s infinite reverse forwards;}
+
+.ImageDOOM4{
+width: 400px;
+height: 300px;
+}
+
+.ImageDOOM4:hover{animation: Vibrations 0.1s ease 1s infinite reverse forwards;}
+
+.ImageDOOM5{
+width: 400px;
+height: 300px;
+}
+
+.ImageDOOM5:hover{animation: Vibrations 0.1s ease 1s infinite reverse forwards;}
+
+/*Расположение картинок*/
+.ImageContent{
+    display: flex;
+    justify-content: space-between;
+}
+/*Центровка изображений*/
+.Center{
+    
+}
+/*Голова сайта*/
+.head001{
+display: flex;
+justify-content: center;
+margin-top: 15%;
+}
+/*титл*/
+.title1{
+    justify-content: center;
+    font-size: 210px;
+    font-family: "Eternal Logo";
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(255,166,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.title1:hover{
+    animation: Heartbeat2 0.3s linear 0.1s infinite reverse none;
+}
