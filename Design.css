@@ -493,24 +493,24 @@ color: red;
   .DOOM1 {
     padding-left: 15px;
     margin-right: 15px;
-    font-size: 4.5px;
+    font-size: 9px;
 
   }
   .DOOM2 {
     margin-right: 15px;
-    font-size: 4.5px;
+    font-size: 9px;
   }
   .DOOM3 {
     margin-right: 15px;
-    font-size: 4.5px;
+    font-size: 9px;
   }
   .DOOM4 {
     margin-right: 15px;
-    font-size: 4.5px;
+    font-size: 9px;
   }
   .DOOM5 {
     margin-right: 15px;
-    font-size: 4.5px;
+    font-size: 9px;
   }
   .container {
     margin: 50%;
@@ -541,15 +541,15 @@ color: red;
 /*Текст заголовка*/
 .High1{
 padding-left:5px; ;
-font-size: 5px;
+font-size: 10px;
 }
 .High2{
 padding-left: 5px;
-font-size: 7px;
+font-size: 14px;
 }
 .High3{
 padding-left:5px;
-font-size: 5px;
+font-size: 10px;
 }
 
 /*Текст под заголовком(мелкий)*/
@@ -558,7 +558,7 @@ padding: 5px;
 padding-left: 0px ;
 width: 235px;
 height: auto;
-font-size: 2.5px ;
+font-size: 5px ;
 }
 /*Костыль для декора*/
 .MiniText3{
@@ -566,7 +566,7 @@ font-size: 2.5px ;
   padding-left: 0px ;
   width: 365px;
   height: auto;
-  font-size: 2.5px ;
+  font-size: 5px ;
   }
 
 /*Текст без картинок*/
@@ -575,7 +575,7 @@ padding: 2.5px;
 padding-left: 5px ;
 width: auto;
 height: auto;
-font-size: 2.5px ;
+font-size: 5px ;
 }
 
 /*Текст под заголовком(мелкий) 2*/
@@ -584,7 +584,7 @@ font-size: 2.5px ;
   padding-left: 5px ;
   width: 208px;
   height: auto;
-  font-size: 2.5px ;
+  font-size: 5px ;
   }
 
   /*Текст без картинок 2*/
@@ -592,13 +592,13 @@ font-size: 2.5px ;
 padding: 2.5px;
 padding-left: 5px ;
 max-width: 730px;
-font-size: 2.5px ;
+font-size: 5px ;
 }
 .signal{
-font-size: 3.5px;
+font-size: 7px;
 }
 .HighSim{
-font-size: 4px;
+font-size: 8px;
 color: orangered;
 }
 .Img1{
