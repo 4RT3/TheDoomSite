@@ -472,7 +472,7 @@ color: red;
 }
 .Text1{
   padding: 5px;
-  width: 390px;
+  width: 420px;
   }
 .help1{
   width: auto;
@@ -501,12 +501,12 @@ color: red;
     font-size: 6px;
   }
   .DOOM3 {
-    margin-right: 15px;
-    font-size: 9px;
+    margin-right: 10px;
+    font-size: 6px;
   }
   .DOOM4 {
-    margin-right: 15px;
-    font-size: 9px;
+    margin-right: 10px;
+    font-size: 6px;
   }
   .DOOM5 {
     margin-right: 10px;
@@ -514,7 +514,7 @@ color: red;
   }
   .container {
     margin: 50%;
-    max-width: 375px;
+    max-width: 475px;
   }
 
 /*Шапка 2*/
@@ -535,7 +535,7 @@ color: red;
 .Img4{
   padding-top: 0px;
   padding-left: 5px;
-  width: 325px;
+  width: 321px;
   height: 2560;
 }
 /*Текст заголовка*/
@@ -545,7 +545,7 @@ font-size: 10px;
 }
 .High2{
 padding-left: 5px;
-font-size: 14px;
+font-size: 7px;
 }
 .High3{
 padding-left:5px;
@@ -556,7 +556,7 @@ font-size: 10px;
 .MiniText1{
 padding: 5px;
 padding-left: 0px ;
-width: 235px;
+width: 240px;
 height: auto;
 font-size: 5px ;
 }
@@ -582,7 +582,7 @@ font-size: 5px ;
 .MiniText4{
   padding: 5px;
   padding-left: 5px ;
-  width: 208px;
+  width: 160px;
   height: auto;
   font-size: 5px ;
   }
@@ -605,13 +605,13 @@ color: orangered;
 padding: 0px;
 padding-right: 0px;
 margin-top: 23px;
-width: 85px;
-height: 100px;
+width: 80px;
+height: 120px;
 } 
 .Img2{
 padding-left: 5px;
 padding-top: 7px;
-height: 100px;
+height: 129px;
 width: 150px;
 }
 .asd {
@@ -623,18 +623,22 @@ padding-right: 20px;
 padding-left: 0px;
 margin-top: 5px;
 height: 100px;
-width: 145px;
+width: 136px;
 }
 .Text1{
 padding: 5px;
-width: 260px;
+width: 235px;
 }
 .help1{
 width: auto;
 }
 .dd1{
 padding-left: 0px;
+width: 175px;
 }
+.dd2{
+  padding-left: 0px;
+  }
 .Footertext{
 margin-top: -15px;
 font-size: 3px;
